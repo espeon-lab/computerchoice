@@ -1,0 +1,12 @@
+import random
+
+def get_user_choice():
+    choice = input("Rock, Paper, or Scissors?: ")
+    return choice
+
+def get_computer_choice():
+    choices = ["Rock", "Paper", "Scissors"]
+    choice = random.choice(choices)
+    return choice
+print(get_user_choice())
+print(get_computer_choice())
